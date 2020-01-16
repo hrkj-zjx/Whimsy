@@ -45,6 +45,7 @@ public final class Is {
 				return false;
 			}
 			}
+			//
 //			if (flag == -2) {
 //				return isNegative(message, flag);
 //			} else if (flag == -1) {
@@ -115,11 +116,11 @@ public final class Is {
 		return false;
 	}
 
-	
 	/**
 	 * 判断字符串是否是负数、负整数
+	 * 
 	 * @param message 被判断的信息
-	 * @param flag 判断条件
+	 * @param flag    判断条件
 	 * @return 返回布尔值，符合返回true反之false
 	 */
 	private static boolean isNegative(String message, int flag) {
