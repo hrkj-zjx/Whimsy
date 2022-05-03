@@ -9,5 +9,6 @@ package com.ych.tools.is;
  * @version 1.0 
  */
 public class AA {
-
+  main(){
+   System.out.println("你好世界")
 }
